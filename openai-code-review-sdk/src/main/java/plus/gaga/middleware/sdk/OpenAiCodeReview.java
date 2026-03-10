@@ -13,6 +13,7 @@ public class OpenAiCodeReview {
     private static final Logger logger = LoggerFactory.getLogger(OpenAiCodeReview.class);
 
     // 配置配置
+
     private String weixin_appid = "wx5a228ff69e28a91f";
     private String weixin_secret = "0bea03aa1310bac050aae79dd8703928";
     private String weixin_touser = "or0Ab6ivwmypESVp_bYuk92T6SvU";
