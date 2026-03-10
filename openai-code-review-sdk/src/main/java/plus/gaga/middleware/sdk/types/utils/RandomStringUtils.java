@@ -3,6 +3,7 @@ package plus.gaga.middleware.sdk.types.utils;
 import java.util.Random;
 
 
+
 public class RandomStringUtils {
 
     public static String randomNumeric(int length) {
