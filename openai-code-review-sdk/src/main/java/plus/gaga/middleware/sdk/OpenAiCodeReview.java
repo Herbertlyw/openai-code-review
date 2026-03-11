@@ -43,7 +43,7 @@ public class OpenAiCodeReview {
         );
 
         /**
-         * 项目：{{repo_name.DATA}} 分支：{{branch_name.DATA}} 作者：{{commit_author.DATA}} 说明：{{commit_message.DATA}}
+         *   项目：{{repo_name.DATA}} 分支：{{branch_name.DATA}} 作者：{{commit_author.DATA}} 说明：{{commit_message.DATA}}
          */
         WeiXin weiXin = new WeiXin(
                 getEnv("WEIXIN_APPID"),
